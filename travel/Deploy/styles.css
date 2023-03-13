@@ -1,0 +1,197 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+header p {
+  font-size: 0.75em;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-sm-4,
+.col-sm-7 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-sm-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+.col-sm-7 {
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+}
+
+h2, h3, h4, h5 {
+  margin: 20px 0 10px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+  color: #8B0000;
+}
+
+h4 {
+  font-size: 1em;
+  color: #FFA07A;
+}
+
+h5 {
+  font-size: 0.875em;
+  color: #008080;
+}
+
+p {
+  margin: 0 0 10px;
+  font-size: 0.9em;
+  line-height: 1.5;
+  color: #696969;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer h5 {
+  margin: 0 0 10px;
+  font-size: 0.875em;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+footer p {
+    margin: 0;
+    font-size: 0.75em;
+    text-align: center;
+  }
+  
+  address {
+    font-style: normal;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .culinary-specialists {
+    text-align: center;
+  }
+  
+  .culinary-specialists h2 {
+    text-align: center;
+  }
+    
+  .culinary-specialists h4 {
+    text-align: center;
+  }
+  
+  .culinary-specialists p {
+    text-align: center;
+  }
+  
+  a {
+    color: #8B0000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (min-width: 576px) {
+    .col-sm-4 {
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+    .col-sm-7 {
+      flex: 0 0 75%;
+      max-width: 75%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .col-sm-4 {
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+    .col-sm-7 {
+      flex: 0 0 80%;
+      max-width: 80%;
+    }
+  }
+  
